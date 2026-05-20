@@ -1,0 +1,27 @@
+.wp-block-asphalt-proposal-manager-pricing {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.wp-block-asphalt-proposal-manager-pricing table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 400px;
+}
+
+.wp-block-asphalt-proposal-manager-pricing table th {
+    border: 0 !important;
+}
+
+.wp-block-asphalt-proposal-manager-pricing table td {
+    border: 0px;
+}
+
+.wp-block-asphalt-proposal-manager-pricing table td {
+    background-color: transparent !important;
+}
+
+.wp-block-asphalt-proposal-manager-pricing table tbody tr td {
+    border-bottom-width: 1px !important;
+    border-bottom-style: solid !important;
+}

@@ -1,0 +1,13 @@
+.wp-block-asphalt-proposal-manager-image .pc-image {
+    display: block;
+    object-fit: cover;
+    z-index: 10;
+}
+
+.wp-block-asphalt-proposal-manager-image {
+    z-index: 10;
+}
+
+.wp-block-asphalt-proposal-manager-image:not(.wp-block) {
+    position: relative;
+}
