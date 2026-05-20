@@ -1,0 +1,17 @@
+{
+	"compilerOptions": {
+		"baseUrl": ".",
+		"paths": {
+			"@wordpress/*": [ "./node_modules/@wordpress/*" ],
+			"@dashboard/*": [ "./resources/dashboard/*" ],
+			"@gutenberg/*": [ "./resources/gutenberg/*" ],
+			"@scss/*": [ "./resources/scss/*" ],
+			"@blocks/*": [ "./assets/blocks/*" ]
+		}
+	},
+	"include": [
+		"./resources/dashboard/**/*",
+		"./resources/gutenberg/**/*",
+		"./resources/scss/**/*"
+	]
+}
