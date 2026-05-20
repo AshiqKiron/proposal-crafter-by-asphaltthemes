@@ -1,0 +1,35 @@
+@import 'react-loading-skeleton/dist/skeleton.css';
+@import './components/proposal-create-modal.scss';
+@import './components/template-details-modal.scss';
+
+#asphalt-proposal-manager-dashboard-root {
+    --wp-components-color-accent: #7B61FF;
+    padding-right: 20px;
+
+
+    * {
+        box-sizing: border-box;
+    }
+
+    .components-form-toggle .components-form-toggle__track {
+        width: 28px;
+    }
+
+    .components-form-toggle.is-checked .components-form-toggle__thumb {
+        transform: translateX(12px);
+    }
+}
+
+.asphalt-proposal-manager_page_asphalt-proposal-manager {
+    #wpbody-content {
+        padding-bottom: 0 !important;
+    }
+
+    .components-popover__content {
+        background: #ffffff;
+        border-radius: 8px;
+        padding: 0;
+        border: 1px solid #E5E7EB;
+        box-shadow: 0 16px 32px -4px rgba(0, 0, 0, 0.12);
+    }
+}

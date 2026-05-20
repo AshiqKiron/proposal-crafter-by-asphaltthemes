@@ -1,0 +1,60 @@
+.proposal-status-wrapper {
+    padding: 20px 10px 0 10px;
+}
+
+.proposal-status-badge {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 16px 24px;
+    border-radius: 12px;
+    margin: 0 auto;
+    max-width: 700px;
+
+    &.proposal-status-approved {
+        background-color: #F2FBF6;
+        border: 1px solid #C1EAC5;
+
+        .proposal-status-content .proposal-status-title {
+            color: #117B34;
+        }
+    }
+
+    &.proposal-status-declined {
+        background-color: #FFF2F0;
+        border: 1px solid #FFCCC7;
+
+        .proposal-status-content .proposal-status-title {
+            color: #E05D52;
+        }
+    }
+
+    .proposal-status-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+
+        img {
+            width: 42px;
+            height: auto;
+            display: block;
+        }
+    }
+
+    .proposal-status-content {
+        .proposal-status-title {
+            margin: 0;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 1.4;
+        }
+
+        .proposal-status-date {
+            margin: 2px 0 0;
+            font-size: 14px;
+            color: #4B5563;
+            line-height: 1.4;
+        }
+    }
+}

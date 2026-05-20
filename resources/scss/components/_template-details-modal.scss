@@ -1,0 +1,9 @@
+.template-details-modal {
+    max-width: min(950px, 95vw) !important;
+    max-height: min(700px, 90vh) !important;
+    border-radius: 16px !important;
+
+    .components-modal__content {
+        padding: 0px !important;
+    }
+}
